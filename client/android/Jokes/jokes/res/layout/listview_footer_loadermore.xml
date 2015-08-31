@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent">  
+  <TextView
+      style="@style/textStyle_normal"    
+      android:id="@+id/litview_loadmore_text"    
+      android:layout_width="fill_parent"    
+      android:layout_height="wrap_content"  
+      android:text="@string/listview_tips_loadmore"
+      android:gravity="center"
+      />   
+</LinearLayout>  

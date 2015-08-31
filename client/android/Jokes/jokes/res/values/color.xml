@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_text_normal">#939393</color>
+    <color name="tab_text_selected">#ce3b4d</color>
+
+    
+    <color name="activity_background">#ededed</color>
+    <color name="listview_background">#ededed</color>
+
+    <color name="listview_item_background">#fefefe</color>
+
+    <color name="tabbar_background">#f9f9f9</color>
+
+    <color name="titlebar_bg_title">#f9f9f9</color>
+    <color name="titlebar_title">#333333</color>
+
+    <color name="text_color_nomaltext">#333333</color>
+
+    <color name="list_divider_line">#e7e7e7</color>
+
+    <color name="controlbar_text_color">#939393</color>
+    <color name="controlbar_text_color_selected">#ce3b4d</color>
+
+    <color name="text_color_highlight">#ce3b4d</color>
+    
+    
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#33000000"
+    >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="260dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#ffefefef"
+    >
+    
+   <LinearLayout 
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:orientation="horizontal"
+   android:layout_gravity="center_horizontal"
+   >
+   <ImageView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center_vertical"
+   android:background="@drawable/ic_launcher"
+   android:visibility="gone"
+   />
+   
+   <TextView
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center_vertical"
+   android:text="@string/update_hasupdate_title"
+   android:textColor="#ff000000"
+   android:textSize="18sp"
+   android:layout_marginTop="5dp"
+   />
+   </LinearLayout>
+    <ScrollView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_weight="1"
+    >
+ <TextView
+  android:id="@+id/update_hasupdate" 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="20px"
+     android:layout_marginRight="20px"
+     android:gravity="left"
+     android:textSize="14sp"
+     android:textColor="#ff333333"
+     android:text="@string/update_hasupdate_text1"
+     android:minHeight="120dp"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:autoLink="all"
+     android:linksClickable="true"
+     />
+     </ScrollView>
+     
+    <LinearLayout 
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="horizontal"
+   android:layout_gravity="center_horizontal"
+   android:layout_marginLeft="5dp"
+   android:layout_marginRight="5dp"
+   android:layout_marginTop="10dp"
+   >
+   <Button
+   android:id="@+id/update_btn_update"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_weight="1"
+   android:text="@string/update_yes"
+   />
+   
+   <Button
+   android:id="@+id/update_btn_no"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:layout_weight="1"
+   android:text="@string/update_NO"
+   />
+     </LinearLayout>
+</LinearLayout>
+</FrameLayout>

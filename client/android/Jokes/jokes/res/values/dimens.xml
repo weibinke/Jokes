@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlebar_text_margin">30px</dimen> 
+
+    <dimen name="titlebar_icon_size">45px</dimen> 
+
+    <dimen name="text_size_normal">18sp</dimen> 
+    <dimen name="text_size_bigger">22sp</dimen> 
+    <dimen name="text_size_smaller">12sp</dimen> 
+
+    <dimen name="textview_size_padding">14sp</dimen> 
+    <dimen name="textview_size_padding_smaller">5sp</dimen> 
+
+    <dimen name="list_padding_top">10dp</dimen>
+    <dimen name="list_padding_bottom">10dp</dimen>
+
+    <dimen name="list_item_margin_top">10dp</dimen>
+
+    <dimen name="list_item_innerpadding">10dp</dimen>
+
+    <dimen name="list_item_image_maxheight">200dp</dimen>
+    
+
+    <dimen name="list_divider_line_height">2px</dimen>
+    <dimen name="list_default_connent_margin">14dp</dimen>
+    
+    <dimen name="detail_view_paddingleft">14sp</dimen> 
+    <dimen name="detail_view_comment_paddingTop">5sp</dimen> 
+    <dimen name="detail_view_comment_paddingBottom">5sp</dimen> 
+     
+</resources>

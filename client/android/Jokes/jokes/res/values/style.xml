@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:style/Theme.Light.NoTitleBar">
+        <item name="tabView">@style/TabView</item>
+        <item name="tabPageIndicator">@style/TabIndicator</item>
+    </style>
+
+    <style name="activity_theme" parent="android:style/Theme.Light.NoTitleBar"></style>
+
+    <style name="TabIndicator" />
+
+    <style name="TabView">
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@color/activity_background</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="textStyle_normal">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_nomaltext</item>
+        <item name="android:paddingTop">@dimen/textview_size_padding</item>
+        <item name="android:paddingBottom">@dimen/textview_size_padding</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="textStyle_smaller">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+        <item name="android:textColor">@color/text_color_nomaltext</item>
+        <item name="android:paddingTop">@dimen/textview_size_padding_smaller</item>
+        <item name="android:paddingBottom">@dimen/textview_size_padding_smaller</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="textStyle_bigger">
+        <item name="android:textSize">@dimen/text_size_bigger</item>
+        <item name="android:textColor">@color/text_color_nomaltext</item>
+        <item name="android:paddingTop">@dimen/textview_size_padding</item>
+        <item name="android:paddingBottom">@dimen/textview_size_padding</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="textStyle_lighter">
+        <item name="android:textSize">@dimen/text_size_smaller</item>
+        <item name="android:textColor">@color/controlbar_text_color</item>
+        <item name="android:paddingTop">@dimen/textview_size_padding_smaller</item>
+        <item name="android:paddingBottom">@dimen/textview_size_padding_smaller</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+     <style name="textStyle_highlight">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/text_color_highlight</item>
+        <item name="android:paddingTop">@dimen/textview_size_padding</item>
+        <item name="android:paddingBottom">@dimen/textview_size_padding</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

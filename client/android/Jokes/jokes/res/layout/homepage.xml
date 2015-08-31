@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listview_background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/list_default_connent_margin"
+            android:layout_marginTop="@dimen/list_default_connent_margin"
+            android:orientation="vertical" >
+
+            <include layout="@layout/dividerline"/>
+
+            <LinearLayout
+                android:id="@+id/homepage_myfavorite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/listview_item_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/list_default_connent_margin"
+                android:paddingRight="@dimen/list_default_connent_margin" >
+
+                <TextView
+                    android:id="@+id/homepage_myfavorite_text"
+                    style="@style/textStyle_normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/homepage_myfavorite" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/list_default_connent_margin"
+                    android:src="@drawable/arror_next" />
+            </LinearLayout>
+
+           <include layout="@layout/dividerline"/>
+            
+            <LinearLayout
+                android:id="@+id/homepage_mythumbup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/listview_item_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/list_default_connent_margin"
+                android:paddingRight="@dimen/list_default_connent_margin" >
+
+                <TextView
+                    android:id="@+id/homepage_mythumbup_text"
+                    style="@style/textStyle_normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/homepage_mythumbup" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/list_default_connent_margin"
+                    android:src="@drawable/arror_next" />
+            </LinearLayout>
+
+            <include layout="@layout/dividerline"/>
+            <LinearLayout
+                android:id="@+id/homepage_mycomments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/listview_item_background"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/list_default_connent_margin"
+                android:paddingRight="@dimen/list_default_connent_margin" >
+
+                <TextView
+                    android:id="@+id/homepage_mycomments_text"
+                    style="@style/textStyle_normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/homepage_mycomments" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/list_default_connent_margin"
+                    android:src="@drawable/arror_next" />
+            </LinearLayout>
+            <include layout="@layout/dividerline"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

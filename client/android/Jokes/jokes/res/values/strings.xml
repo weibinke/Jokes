@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jokes</string>
+    <string name="channel_id">10020</string>
+
+    <string name="tab_title_pic">图片</string>
+    <string name="tab_title_nopic">文字</string>
+    <string name="tab_title_news">趣闻</string>
+    <string name="tab_title_homepage">主页</string>
+
+    <string name="listview_empty">没有内容</string>
+    <string name="listview_pulluptorefress">下拉刷新</string>
+    <string name="listview_pulldowntorefress">上拉刷新</string>
+    <string name="listview_release_to_refresh">释放即可刷新</string>
+    <string name="listview_loading">加载中...</string>
+    <string name="listview_updatelabel">最后刷新</string>
+
+    <string name="listview_tips_nomore_newdatas">数据已经是最新</string>
+    <string name="listview_tips_nomore_earlydatas">没有更多数据</string>
+    
+    <string name="listview_tips_load_failed">数据拉取失败，请检查网络</string>
+    <string name="listview_tips_loadmore">查看更多</string>
+    <string name="listview_tips_loadmore_loading">加载中...</string>
+    <string name="listview_tips_loadmore_nomoredatata">没有更多数据</string>
+
+    <string name="share_title">分享到</string>
+
+    <string name="detail_title">段子正文</string>
+    <string name="detail_nocomment">暂时没有评论</string>
+    <string name="detail_loading_comments">加载评论中...</string>
+    <string name="detail_loading_comments_failed">评论加载失败，点击冲击加载</string>
+    
+    <string name="detail_comment_fetch_failed">评论加载失败，请检查网络</string>
+
+    <string name="detail_default_comment_author">匿名段友</string>      
+    <string name="detail_comment_send">发送</string>      
+    <string name="detail_comment_emptytips">多写点内容吧</string>      
+    <string name="detail_comment_send_suc">评论成功</string>      
+    <string name="detail_comment_send_failed">评论失败，请检查网络</string>      
+
+    <string name="detail_comment_default_content">评论内容为空</string>      
+    <string name="detail_comment_default_time">12-3 23:00</string>      
+
+    <string name="viewimage_saveimage">保存</string>
+    <string name="viewimage_saveimage_suc">图片已经保存到</string>
+    <string name="viewimage_saveimage_failed">图片保存失败</string>
+
+    <string name="homepage_myfavorite">我的收藏</string>
+    <string name="homepage_mythumbup">我赞过的</string>
+    <string name="homepage_mycomments">我的评论</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_checkupdate">检查升级</string>
+    <string name="settings_feedback">用户反馈</string>
+    <string name="settings_recommend">推荐给朋友</string>
+    <string name="settings_clearcache">清除缓存</string>
+    <string name="settings_rateus">评论我们</string>
+    <string name="settings_about">关于我们</string>
+
+    <string name="settings_footer_tips">\@2014 codeshome.com All Right Reserved.</string>
+
+    <string name="settings_share_content">超级好玩的精选段子，快来一起玩啊！http://www.codeshome.com</string>
+
+    <string name="settings_clearcache_suc">缓存清理成功</string>
+    
+</resources>

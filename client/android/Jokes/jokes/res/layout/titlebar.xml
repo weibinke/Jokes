@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titlebar_bg_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/titlebar_btn_left"
+            android:layout_width="@dimen/titlebar_icon_size"
+            android:layout_height="@dimen/titlebar_icon_size"
+            android:layout_marginLeft="@dimen/list_default_connent_margin"
+            android:background="@drawable/titlebar_backward"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/titlebar_text_title"
+            style="@style/textStyle_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/titlebar_text_margin"
+            android:layout_marginRight="@dimen/titlebar_text_margin"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/tab_title_pic"
+            android:textColor="@color/titlebar_title" />
+
+        <ImageButton
+            android:id="@+id/titlebar_btn_right"
+            android:layout_width="@dimen/titlebar_icon_size"
+            android:layout_height="@dimen/titlebar_icon_size"
+            android:layout_marginRight="@dimen/list_default_connent_margin"
+            android:background="@drawable/titlebar_refresh"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider_line_height"
+        android:background="@color/list_divider_line" >
+    </View>
+
+</LinearLayout>

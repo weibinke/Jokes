@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">G:\\Dropbox\\moblie\\Jokes\\platform</string>
+    <string name="update_hasupdate_title">新版本提示</string>
+    <string name="update_hasupdate_text1">检测到新版本。版本：</string>
+    <string name="update_hasupdate_text2">现在升级？</string>
+    <string name="update_hasupdate_text3">版本特性：</string>
+    <string name="update_yes">升级</string>
+    <string name="update_NO">改天再说</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/my_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/listview_background"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:smoothScrollbar="true"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrHeaderTextAppearance="@android:attr/textAppearanceMedium" />
+
+        <!-- Here is the view to show if the list is emtpy -->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider_line_height"
+        android:background="@color/list_divider_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titlebar_bg_title"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/detail_view_comment_paddingBottom"
+        android:paddingLeft="@dimen/list_default_connent_margin"
+        android:paddingRight="@dimen/list_default_connent_margin"
+        android:paddingTop="@dimen/detail_view_comment_paddingTop" >
+
+        <EditText
+            android:id="@+id/comment_edittext"
+            style="@style/textStyle_smaller"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/btn_comment_send"
+            style="@style/textStyle_highlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/list_default_connent_margin"
+            android:text="@string/detail_comment_send" />
+    </LinearLayout>
+
+</LinearLayout>

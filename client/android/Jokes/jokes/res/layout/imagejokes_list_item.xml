@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/list_item_margin_top" >
+
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider_line_height"
+        android:background="@color/list_divider_line" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/listview_item_background" 
+        android:paddingLeft="@dimen/list_default_connent_margin"
+        android:paddingRight="@dimen/list_default_connent_margin">
+
+        <TextView
+            android:id="@+id/image_jokes_item_content"
+            style="@style/textStyle_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listview_empty" 
+            android:singleLine="false"
+            android:maxLines="300"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_jokes_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="@dimen/list_item_image_maxheight"
+        android:layout_gravity="center"
+        android:background="@color/listview_item_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/default_image"
+        android:paddingTop="@dimen/list_item_margin_top" 
+        android:paddingBottom="@dimen/list_item_margin_top" 
+        android:paddingLeft="@dimen/list_default_connent_margin"
+        android:paddingRight="@dimen/list_default_connent_margin"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider_line_height"
+        android:background="@color/list_divider_line" >
+    </View>
+    <LinearLayout
+        android:id="@+id/listview_controlbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/listview_item_background"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            >
+            
+        <LinearLayout
+            android:id="@+id/controlarea_thumb_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/list_item_innerpadding"
+        	android:paddingTop="@dimen/list_item_innerpadding"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/btn_thumb_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/thumbup"
+                 />
+
+            <TextView
+                style="@style/textStyle_lighter"
+                android:id="@+id/text_thumbup_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="0"
+                android:maxLength="4"
+                android:textColor="@color/controlbar_text_selector"
+                />
+        </LinearLayout>
+        
+        </FrameLayout>
+
+        <View
+            android:layout_width="@dimen/list_divider_line_height"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/list_item_innerpadding"
+        	android:layout_marginBottom="@dimen/list_item_innerpadding"
+            android:layout_gravity="center_vertical"
+            android:background="@color/list_divider_line" >
+        </View>
+        
+        <FrameLayout
+            android:id="@+id/controlarea_like"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/list_item_innerpadding"
+        	android:paddingTop="@dimen/list_item_innerpadding"
+            android:orientation="horizontal" 
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/btn_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/addfavorite"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="@dimen/list_divider_line_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@color/list_divider_line"
+            android:layout_marginTop="@dimen/list_item_innerpadding"
+        	android:layout_marginBottom="@dimen/list_item_innerpadding" 
+            >
+        </View>
+        
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        <LinearLayout
+            android:id="@+id/controlarea_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/list_item_innerpadding"
+        	android:paddingTop="@dimen/list_item_innerpadding"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/btn_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment"
+                />
+
+            <TextView
+                style="@style/textStyle_lighter"
+                android:id="@+id/text_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="0" 
+                android:maxLength="4"
+                />
+        </LinearLayout>
+        
+        </FrameLayout>
+
+        <View
+            android:layout_width="@dimen/list_divider_line_height"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@color/list_divider_line"
+            android:layout_marginTop="@dimen/list_item_innerpadding"
+        	android:layout_marginBottom="@dimen/list_item_innerpadding" >
+        </View>
+        
+        <FrameLayout
+            android:id="@+id/controlarea_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/btn_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/share" 
+                android:layout_gravity="center"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider_line_height"
+        android:background="@color/list_divider_line" >
+    </View>
+
+</LinearLayout>

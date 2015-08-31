@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<com.handmark.pulltorefresh.library.PullToRefreshListView  
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"  
+        android:id="@+id/my_list"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:cacheColorHint="@android:color/transparent"  
+        android:listSelector="@android:color/transparent"
+        android:divider="@null"
+        android:fadingEdge="none"  
+        android:fastScrollEnabled="false"  
+        android:footerDividersEnabled="false"  
+        android:headerDividersEnabled="false"  
+        android:smoothScrollbar="true"  
+        ptr:ptrAnimationStyle="flip"  
+        ptr:ptrHeaderTextAppearance="@android:attr/textAppearanceMedium"
+        android:background="@color/listview_background"
+        android:layout_marginBottom="@dimen/list_padding_bottom"
+        />  
+  
+    <!-- Here is the view to show if the list is emtpy -->  
+    <ScrollView android:id="@+id/empty"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:fillViewport="true">  
+  
+        <LinearLayout  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="vertical">  
+  
+            <TextView  
+                style="@style/textStyle_bigger"
+                android:id="@+id/emptyText"  
+                android:layout_width="fill_parent"  
+                android:layout_height="fill_parent"  
+                android:text="@string/listview_empty"  
+                android:lineSpacingMultiplier="0.92"  
+                android:gravity="center" />  
+        </LinearLayout>  
+    </ScrollView> 
+
+</LinearLayout>
