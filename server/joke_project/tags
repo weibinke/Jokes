@@ -1,0 +1,319 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	jokes_project/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+Author	jokes/admin.py	/^from jokes.models import Author$/;"	i
+Author	jokes/management/commands/importauthor.py	/^from jokes.models import Author$/;"	i
+Author	jokes/management/commands/importjokes.py	/^from jokes.models import Author$/;"	i
+Author	jokes/models.py	/^class Author(models.Model):$/;"	c
+BASE_DIR	jokes_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(__file__))$/;"	v
+BOT_NAME	datas/tools/jokes_spider/jokespider/jokespider/settings.py	/^BOT_NAME = 'jokespider'$/;"	v
+BaseCommand	jokes/management/commands/importauthor.py	/^from django.core.management.base import BaseCommand$/;"	i
+BaseCommand	jokes/management/commands/importjokes.py	/^from django.core.management.base import BaseCommand$/;"	i
+BaseRequest	jokes/protocol/get_jokes.py	/^class BaseRequest(object):$/;"	c
+BaseResponse	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import BaseResponse$/;"	i
+BaseResponse	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import BaseResponse$/;"	i
+BaseResponse	jokes/protocol/get_jokes.py	/^class BaseResponse(object):$/;"	c
+BaseResponse	jokes/views.py	/^from jokes.protocol.get_jokes import BaseResponse$/;"	i
+CMD_DEFINE	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import CMD_DEFINE$/;"	i
+CMD_DEFINE	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import CMD_DEFINE$/;"	i
+CMD_DEFINE	jokes/protocol/get_jokes.py	/^class CMD_DEFINE:$/;"	c
+CMD_DEFINE	jokes/views.py	/^from jokes.protocol.get_jokes import CMD_DEFINE$/;"	i
+COMMENT_STATUS	jokes/models.py	/^    COMMENT_STATUS=($/;"	v	class:Comment
+CodeshomeSpider	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^class CodeshomeSpider(scrapy.Spider):$/;"	c
+Command	jokes/management/commands/importauthor.py	/^class Command(BaseCommand):$/;"	c
+Command	jokes/management/commands/importjokes.py	/^class Command(BaseCommand):$/;"	c
+Comment	jokes/admin.py	/^from jokes.models import Comment$/;"	i
+Comment	jokes/management/commands/importauthor.py	/^from jokes.models import Comment$/;"	i
+Comment	jokes/management/commands/importjokes.py	/^from jokes.models import Comment$/;"	i
+Comment	jokes/models.py	/^class Comment(models.Model):$/;"	c
+Comment	jokes/views.py	/^from jokes.models import Comment$/;"	i
+CommentItem	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import CommentItem$/;"	i
+CommentItem	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import CommentItem$/;"	i
+CommentItem	jokes/protocol/get_jokes.py	/^class CommentItem(object):$/;"	c
+CommentItem	jokes/views.py	/^from jokes.protocol.get_jokes import CommentItem$/;"	i
+DATABASES	jokes_project/settings.py	/^DATABASES = {$/;"	v
+DEBUG	jokes_project/settings.py	/^DEBUG = True$/;"	v
+DEFALT_AUTHOR	jokes/management/commands/importjokes.py	/^DEFALT_AUTHOR='default_author'$/;"	v
+DEFAULT_AUTHOR	jokes/protocol/get_jokes.py	/^    DEFAULT_AUTHOR=""$/;"	v	class:CommentItem
+DEFAULT_AUTHOR_FILE	jokes/management/commands/importauthor.py	/^DEFAULT_AUTHOR_FILE = "\/root\/joke_project\/jokes\/datahelper\/authors.xlsx"$/;"	v
+DeviceInfo	jokes/admin.py	/^from jokes.models import DeviceInfo$/;"	i
+DeviceInfo	jokes/management/commands/importauthor.py	/^from jokes.models import DeviceInfo$/;"	i
+DeviceInfo	jokes/management/commands/importjokes.py	/^from jokes.models import DeviceInfo$/;"	i
+DeviceInfo	jokes/models.py	/^class DeviceInfo(models.Model):$/;"	c
+DeviceInfo	jokes/views.py	/^from jokes.models import DeviceInfo$/;"	i
+GetCommemtsResponse	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import GetCommemtsResponse$/;"	i
+GetCommemtsResponse	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import GetCommemtsResponse$/;"	i
+GetCommemtsResponse	jokes/protocol/get_jokes.py	/^class GetCommemtsResponse(BaseResponse):$/;"	c
+GetCommemtsResponse	jokes/views.py	/^from jokes.protocol.get_jokes import GetCommemtsResponse$/;"	i
+GetJokesRequest	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import GetJokesRequest$/;"	i
+GetJokesRequest	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import GetJokesRequest$/;"	i
+GetJokesRequest	jokes/protocol/get_jokes.py	/^class GetJokesRequest(BaseRequest):$/;"	c
+GetJokesRequest	jokes/views.py	/^from jokes.protocol.get_jokes import GetJokesRequest$/;"	i
+GetJokesResponse	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import GetJokesResponse$/;"	i
+GetJokesResponse	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import GetJokesResponse$/;"	i
+GetJokesResponse	jokes/protocol/get_jokes.py	/^class GetJokesResponse(BaseResponse):$/;"	c
+GetJokesResponse	jokes/views.py	/^from jokes.protocol.get_jokes import GetJokesResponse$/;"	i
+HttpResponse	jokes/management/commands/importauthor.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	jokes/management/commands/importjokes.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	jokes/views.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	jokes_project/views.py	/^from django.http import HttpResponse$/;"	i
+HttpResponse	mobile_platform/views.py	/^from django.http import HttpResponse$/;"	i
+INSTALLED_APPS	jokes_project/settings.py	/^INSTALLED_APPS = ($/;"	v
+Image	jokes/admin.py	/^from jokes.models import Image$/;"	i
+Image	jokes/management/commands/importjokes.py	/^from jokes.models import Image$/;"	i
+Image	jokes/models.py	/^class Image(models.Model):$/;"	c
+JOKE_SOURCE	jokes/models.py	/^    JOKE_SOURCE={$/;"	v	class:Joke
+JOKE_STATUS	jokes/models.py	/^    JOKE_STATUS=($/;"	v	class:Joke
+JOKE_TYPES	jokes/models.py	/^    JOKE_TYPES=($/;"	v	class:Joke
+Joke	jokes/admin.py	/^from jokes.models import Joke$/;"	i
+Joke	jokes/management/commands/importauthor.py	/^from jokes.models import Joke$/;"	i
+Joke	jokes/management/commands/importjokes.py	/^from jokes.models import Joke$/;"	i
+Joke	jokes/models.py	/^class Joke(models.Model):$/;"	c
+Joke	jokes/views.py	/^from jokes.models import Joke$/;"	i
+Jokes	jokes/management/commands/importjokes.py	/^        print "import Jokes  start filepath = %s" % options.get('filepath')$/;"	i
+JokesItem	jokes/management/commands/importauthor.py	/^from jokes.protocol.get_jokes import JokesItem$/;"	i
+JokesItem	jokes/management/commands/importjokes.py	/^from jokes.protocol.get_jokes import JokesItem$/;"	i
+JokesItem	jokes/protocol/get_jokes.py	/^class JokesItem(object):$/;"	c
+JokesItem	jokes/views.py	/^from jokes.protocol.get_jokes import JokesItem$/;"	i
+JokespiderItem	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^class JokespiderItem(scrapy.Item):$/;"	c
+JokespiderItem	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^from jokespider.items import JokespiderItem$/;"	i
+JokespiderPipeline	datas/tools/jokes_spider/jokespider/jokespider/pipelines.py	/^class JokespiderPipeline(object):$/;"	c
+LANGUAGE_CODE	jokes_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LOGGING	jokes_project/settings.py	/^LOGGING = {$/;"	v
+Like	jokes/admin.py	/^from jokes.models import Like$/;"	i
+Like	jokes/management/commands/importauthor.py	/^from jokes.models import Like$/;"	i
+Like	jokes/management/commands/importjokes.py	/^from jokes.models import Like$/;"	i
+Like	jokes/models.py	/^class Like(models.Model):$/;"	c
+Like	jokes/views.py	/^from jokes.models import Like$/;"	i
+MIDDLEWARE_CLASSES	jokes_project/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+NEWSPIDER_MODULE	datas/tools/jokes_spider/jokespider/jokespider/settings.py	/^NEWSPIDER_MODULE = 'jokespider.spiders'$/;"	v
+PLATFORM_ANDROID	mobile_platform/models.py	/^	PLATFORM_ANDROID = 0$/;"	v	class:VersionConfig
+PLATFORM_IOS	mobile_platform/models.py	/^	PLATFORM_IOS = 1$/;"	v	class:VersionConfig
+PLATFORM_TYPES	mobile_platform/models.py	/^	PLATFORM_TYPES=($/;"	v	class:VersionConfig
+Q	jokes/management/commands/importauthor.py	/^from django.db.models import Q$/;"	i
+Q	jokes/management/commands/importjokes.py	/^from django.db.models import Q$/;"	i
+Q	jokes/views.py	/^from django.db.models import Q$/;"	i
+RET_ERROR	jokes/protocol/get_jokes.py	/^    RET_ERROR=-1$/;"	v	class:CMD_DEFINE
+RET_FORBIDDEN	jokes/protocol/get_jokes.py	/^    RET_FORBIDDEN=-4$/;"	v	class:CMD_DEFINE
+RET_INVAILED_ARG	jokes/protocol/get_jokes.py	/^    RET_INVAILED_ARG=-2$/;"	v	class:CMD_DEFINE
+RET_JOKE_ID_NOTFOUND	jokes/protocol/get_jokes.py	/^    RET_JOKE_ID_NOTFOUND=-3$/;"	v	class:CMD_DEFINE
+RET_OK	jokes/protocol/get_jokes.py	/^    RET_OK=0$/;"	v	class:CMD_DEFINE
+ROOT_URLCONF	jokes_project/settings.py	/^ROOT_URLCONF = 'jokes_project.urls'$/;"	v
+SOURCE_QIUSHIBAIKE	jokes/models.py	/^    SOURCE_QIUSHIBAIKE = 1$/;"	v	class:Joke
+SOURCE_SELF	jokes/models.py	/^    SOURCE_SELF = 0$/;"	v	class:Joke
+SPIDER_MODULES	datas/tools/jokes_spider/jokespider/jokespider/settings.py	/^SPIDER_MODULES = ['jokespider.spiders']$/;"	v
+STATIC_ROOT	jokes_project/settings.py	/^STATIC_ROOT=BASE_DIR $/;"	v
+STATIC_URL	jokes_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+STATUS_APPROVED	jokes/models.py	/^    STATUS_APPROVED = 1$/;"	v	class:Joke
+STATUS_APPROVED	jokes/models.py	/^    STATUS_APPROVED=1   #审核通过状态   $/;"	v	class:Comment
+STATUS_HOLD	jokes/models.py	/^    STATUS_HOLD = 0$/;"	v	class:Joke
+STATUS_INIT	jokes/models.py	/^    STATUS_INIT=0       #初始状态，待审核$/;"	v	class:Comment
+STATUS_REJECTED	jokes/models.py	/^    STATUS_REJECTED = 2$/;"	v	class:Joke
+STATUS_REJECTED	jokes/models.py	/^    STATUS_REJECTED=2   #审核拒绝状态$/;"	v	class:Comment
+TEMPLATE_DEBUG	jokes_project/settings.py	/^TEMPLATE_DEBUG = True$/;"	v
+TEMPLATE_DIRS	jokes_project/settings.py	/^TEMPLATE_DIRS = [os.path.join(BASE_DIR),'template']$/;"	v
+TIME_ZONE	jokes_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+TYPE_LONG_JOKES	jokes/models.py	/^    TYPE_LONG_JOKES = 2$/;"	v	class:Joke
+TYPE_NOPIC_JOKES	jokes/models.py	/^    TYPE_NOPIC_JOKES = 0$/;"	v	class:Joke
+TYPE_PIC_JOKES	jokes/models.py	/^    TYPE_PIC_JOKES = 1$/;"	v	class:Joke
+TestCase	jokes/tests.py	/^from django.test import TestCase$/;"	i
+TestCase	mobile_platform/tests.py	/^from django.test import TestCase$/;"	i
+ThumbUp	jokes/admin.py	/^from jokes.models import ThumbUp$/;"	i
+ThumbUp	jokes/management/commands/importauthor.py	/^from jokes.models import ThumbUp$/;"	i
+ThumbUp	jokes/management/commands/importjokes.py	/^from jokes.models import ThumbUp$/;"	i
+ThumbUp	jokes/models.py	/^class ThumbUp(models.Model):$/;"	c
+ThumbUp	jokes/views.py	/^from jokes.models import ThumbUp$/;"	i
+USER_AGENT	datas/tools/jokes_spider/jokespider/jokespider/settings.py	/^USER_AGENT = 'Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/44.0.2403.157 Safari\/537.36'$/;"	v
+USE_I18N	jokes_project/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	jokes_project/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	jokes_project/settings.py	/^USE_TZ = True$/;"	v
+VersionConfig	mobile_platform/admin.py	/^from mobile_platform.models import VersionConfig$/;"	i
+VersionConfig	mobile_platform/models.py	/^class VersionConfig(models.Model):$/;"	c
+WSGI_APPLICATION	jokes_project/settings.py	/^WSGI_APPLICATION = 'jokes_project.wsgi.application'$/;"	v
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,deviceid=""):$/;"	m	class:BaseRequest
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,id=0,author=DEFAULT_AUTHOR,content="",joke_id=0,status=0,pub_date=0):$/;"	m	class:CommentItem
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,id=0,type=0,author="",avatar="",content="",imageurl="",time=0,update_time=0,thumb_up_count=0,comment_count=0,is_favorite=False,is_thumbup=False):$/;"	m	class:JokesItem
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,ret=0):$/;"	m	class:BaseResponse
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,ret=0,count=0,start=0,next_pos=0,items=[]):$/;"	m	class:GetCommemtsResponse
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,ret=0,count=0,start=0,next_pos=0,items=[]):$/;"	m	class:GetJokesResponse
+__init__	jokes/protocol/get_jokes.py	/^    def __init__(self,type=0,deviceid="",start=0,count=0):$/;"	m	class:GetJokesRequest
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:Author	file:
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:Comment	file:
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:DeviceInfo	file:
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:Image	file:
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:Joke	file:
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:Like	file:
+__unicode__	jokes/models.py	/^    def __unicode__(self):$/;"	m	class:ThumbUp	file:
+__unicode__	mobile_platform/models.py	/^	def __unicode__(self):$/;"	m	class:VersionConfig	file:
+added	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+admin	jokes/admin.py	/^from django.contrib import admin$/;"	i
+admin	jokes_project/urls.py	/^from django.contrib import admin$/;"	i
+admin	mobile_platform/admin.py	/^from django.contrib import admin$/;"	i
+allowed_domains	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^    allowed_domains = ["m.qiushibaike.com"]$/;"	v	class:CodeshomeSpider
+application	jokes_project/wsgi.py	/^application = get_wsgi_application()$/;"	v
+appname	mobile_platform/models.py	/^	appname = models.CharField(max_length= 100)$/;"	v	class:VersionConfig
+author	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    author = scrapy.Field()$/;"	v	class:JokespiderItem
+author	jokes/models.py	/^    author = models.ForeignKey(Author)$/;"	v	class:Joke
+authorid	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    authorid = scrapy.Field()$/;"	v	class:JokespiderItem
+authorimg	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    authorimg = scrapy.Field()$/;"	v	class:JokespiderItem
+avatar	jokes/models.py	/^    avatar=models.CharField(max_length=1024,default="http:\/\/www.codeshome.com\/")$/;"	v	class:Author
+calendar	jokes/models.py	/^import calendar$/;"	i
+calendar	mobile_platform/models.py	/^import calendar$/;"	i
+checkadconfig	mobile_platform/views.py	/^def checkadconfig(request):$/;"	f
+checkupdate	mobile_platform/views.py	/^def checkupdate(request):$/;"	f
+clientVesion	jokes/models.py	/^    clientVesion = models.IntegerField(default=0)$/;"	v	class:DeviceInfo
+comment	jokes/views.py	/^def comment(request):$/;"	f
+comments	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    comments = scrapy.Field()$/;"	v	class:JokespiderItem
+completed	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+content	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    content = scrapy.Field()$/;"	v	class:JokespiderItem
+content	jokes/models.py	/^    content = models.CharField(max_length=1024,blank=False)$/;"	v	class:Comment
+content	jokes/models.py	/^    content = models.CharField(max_length=102400)$/;"	v	class:Joke
+count	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+createtime	jokes/models.py	/^    createtime = models.DateTimeField('create time',default=datetime.now())$/;"	v	class:Author
+d	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+d	jokes/management/commands/importjokes.py	/^        print "import jokes rows=%d" % joke_count$/;"	i
+datetime	jokes/management/commands/importauthor.py	/^import datetime$/;"	i
+datetime	jokes/management/commands/importjokes.py	/^import datetime$/;"	i
+datetime	jokes/models.py	/^from datetime import datetime$/;"	i
+datetime	jokes/views.py	/^import datetime$/;"	i
+datetime	mobile_platform/models.py	/^from datetime import datetime$/;"	i
+datetime2utctime	jokes/models.py	/^def datetime2utctime(datetime):$/;"	f
+datetime2utctime	mobile_platform/models.py	/^def datetime2utctime(datetime):$/;"	f
+desc	mobile_platform/models.py	/^	desc = models.CharField(max_length= 10240)$/;"	v	class:VersionConfig
+deviceid	jokes/models.py	/^    deviceid = models.CharField(max_length=100)$/;"	v	class:Comment
+deviceid	jokes/models.py	/^    deviceid = models.CharField(max_length=100)$/;"	v	class:Like
+deviceid	jokes/models.py	/^    deviceid = models.CharField(max_length=100)$/;"	v	class:ThumbUp
+deviceid	jokes/models.py	/^    deviceid = models.CharField(max_length=100,primary_key=True,)$/;"	v	class:DeviceInfo
+dict2JokeItems	jokes/protocol/get_jokes.py	/^    def dict2JokeItems(d):$/;"	m	class:JokesItem
+django	jokes_project/settings.py	/^import django.utils.log$/;"	i
+execute_from_command_line	manage.py	/^    from django.core.management import execute_from_command_line$/;"	i
+filepath	jokes/management/commands/importjokes.py	/^        print "import Jokes  start filepath = %s" % options.get('filepath')$/;"	i
+fix_update_time	jokes/models.py	/^def fix_update_time():$/;"	f
+get_comments	jokes/views.py	/^def get_comments(request):$/;"	f
+get_joke	jokes/views.py	/^def get_joke(request):$/;"	f
+get_jokes	jokes/management/commands/importauthor.py	/^from jokes.protocol import get_jokes$/;"	i
+get_jokes	jokes/management/commands/importjokes.py	/^from jokes.protocol import get_jokes$/;"	i
+get_jokes	jokes/views.py	/^from jokes.protocol import get_jokes$/;"	i
+get_jokes_list	jokes/views.py	/^def get_jokes_list(request):$/;"	f
+get_wsgi_application	jokes_project/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+group	jokes/models.py	/^    group = models.IntegerField(default=0)$/;"	v	class:Author
+handle	jokes/management/commands/importauthor.py	/^    def handle(self, **options):$/;"	m	class:Command
+handle	jokes/management/commands/importjokes.py	/^    def handle(self, **options):$/;"	m	class:Command
+handlers	jokes_project/settings.py	/^import logging.handlers$/;"	i
+help	jokes/management/commands/importauthor.py	/^    help = 'the file path of author xlsx'$/;"	v	class:Command
+help	jokes/management/commands/importjokes.py	/^    help = 'the file path'$/;"	v	class:Command
+home	jokes_project/views.py	/^def home(request):$/;"	f
+id	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    id = scrapy.Field()$/;"	v	class:JokespiderItem
+image	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    image = scrapy.Field()$/;"	v	class:JokespiderItem
+image	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+image	jokes/models.py	/^    image = models.ForeignKey(Image,null=True,blank=True)$/;"	v	class:Joke
+include	jokes_project/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+index	jokes/views.py	/^def index(request):$/;"	f
+index	mobile_platform/views.py	/^def index(request):$/;"	f
+joke	jokes/models.py	/^    joke = models.ForeignKey(Joke)$/;"	v	class:Comment
+joke	jokes/models.py	/^    joke = models.ForeignKey(Joke)$/;"	v	class:Like
+joke	jokes/models.py	/^    joke = models.ForeignKey(Joke)$/;"	v	class:ThumbUp
+jokes	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+jokes	jokes/management/commands/importjokes.py	/^        print "import jokes rows=%d" % joke_count$/;"	i
+json	jokes/management/commands/importauthor.py	/^import json$/;"	i
+json	jokes/management/commands/importjokes.py	/^import json$/;"	i
+json	jokes/protocol/get_jokes.py	/^import json$/;"	i
+json	jokes/views.py	/^import json$/;"	i
+json2GetJokesRequest	jokes/protocol/get_jokes.py	/^def json2GetJokesRequest(data):$/;"	f
+json2GetJokesResponse	jokes/protocol/get_jokes.py	/^    def json2GetJokesResponse(data):$/;"	m	class:GetJokesResponse
+like	jokes/views.py	/^def like(request):$/;"	f
+log	jokes_project/settings.py	/^import django.utils.log$/;"	i
+logger	jokes/management/commands/importauthor.py	/^logger=logging.getLogger("jokes.datahelper")$/;"	v
+logger	jokes/views.py	/^logger=logging.getLogger("jokes.views")$/;"	v
+logging	jokes/management/commands/importauthor.py	/^import logging$/;"	i
+logging	jokes/management/commands/importjokes.py	/^import logging$/;"	i
+logging	jokes/views.py	/^import logging$/;"	i
+logging	jokes_project/settings.py	/^import logging$/;"	i
+logging	jokes_project/settings.py	/^import logging.handlers$/;"	i
+make_option	jokes/management/commands/importauthor.py	/^from optparse import make_option$/;"	i
+make_option	jokes/management/commands/importjokes.py	/^from optparse import make_option$/;"	i
+model_name	jokes/models.py	/^    model_name = models.CharField(max_length=100)$/;"	v	class:DeviceInfo
+models	jokes/management/commands/importauthor.py	/^from jokes import models$/;"	i
+models	jokes/management/commands/importjokes.py	/^from jokes import models$/;"	i
+models	jokes/models.py	/^from django.db import models$/;"	i
+models	jokes/views.py	/^from jokes import models$/;"	i
+models	mobile_platform/models.py	/^from django.db import models$/;"	i
+name	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^    name = "codeshome"$/;"	v	class:CodeshomeSpider
+nickname	jokes/models.py	/^    nickname = models.CharField(max_length= 100)$/;"	v	class:Author
+object2Json	jokes/protocol/get_jokes.py	/^def object2Json(object):$/;"	f
+option_list	jokes/management/commands/importauthor.py	/^    option_list = BaseCommand.option_list + ($/;"	v	class:Command
+option_list	jokes/management/commands/importjokes.py	/^    option_list = BaseCommand.option_list + ($/;"	v	class:Command
+os	jokes_project/settings.py	/^import os$/;"	i
+os	jokes_project/wsgi.py	/^import os$/;"	i
+os	manage.py	/^import os$/;"	i
+osVersion	jokes/models.py	/^    osVersion = models.CharField(max_length=100)$/;"	v	class:DeviceInfo
+outerid	jokes/models.py	/^    outerid = models.CharField(max_length=1024,blank=True)$/;"	v	class:Joke
+package_name	mobile_platform/models.py	/^	package_name = models.CharField(max_length= 100)$/;"	v	class:VersionConfig
+parse	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^    def parse(self, response):$/;"	m	class:CodeshomeSpider
+password	jokes/models.py	/^    password = models.CharField(max_length= 100,default="1234")$/;"	v	class:Author
+path	jokes/models.py	/^    path = models.CharField(max_length=1024)$/;"	v	class:Image
+patterns	jokes/urls.py	/^from django.conf.urls import patterns,url$/;"	i
+patterns	jokes_project/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+patterns	mobile_platform/urls.py	/^from django.conf.urls import patterns,url$/;"	i
+platform	jokes/models.py	/^    platform = models.CharField(max_length= 20)$/;"	v	class:DeviceInfo
+platform	mobile_platform/models.py	/^	platform = models.IntegerField(default=PLATFORM_ANDROID,choices=PLATFORM_TYPES)$/;"	v	class:VersionConfig
+process_item	datas/tools/jokes_spider/jokespider/jokespider/pipelines.py	/^    def process_item(self, item, spider):$/;"	m	class:JokespiderPipeline
+pub_date	jokes/models.py	/^    pub_date = models.DateTimeField('date published',default=datetime.now())$/;"	v	class:Joke
+pub_date	jokes/models.py	/^    pub_date=models.DateTimeField('date published',default=datetime.now())$/;"	v	class:Comment
+pub_date	mobile_platform/models.py	/^	pub_date = models.DateTimeField('create time',default=datetime.now())$/;"	v	class:VersionConfig
+publish	jokes/views.py	/^def publish(request):$/;"	f
+readjson	jokes/management/commands/importjokes.py	/^def readjson(filepath):$/;"	f
+render	jokes/management/commands/importauthor.py	/^from django.shortcuts import render$/;"	i
+render	jokes/management/commands/importjokes.py	/^from django.shortcuts import render$/;"	i
+render	jokes/views.py	/^from django.shortcuts import render$/;"	i
+render	mobile_platform/views.py	/^from django.shortcuts import render$/;"	i
+rows	jokes/management/commands/importjokes.py	/^        print "import jokes rows=%d" % joke_count$/;"	i
+s	jokes/management/commands/importjokes.py	/^        print "import Jokes  start filepath = %s" % options.get('filepath')$/;"	i
+save	jokes/models.py	/^    def save(self,*args,**kwargs):$/;"	m	class:Comment
+save	jokes/models.py	/^    def save(self,*args,**kwargs):$/;"	m	class:Joke
+save_device_info	jokes/views.py	/^def save_device_info(request):$/;"	f
+scrapy	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^import scrapy$/;"	i
+scrapy	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^import scrapy$/;"	i
+serializers	jokes/management/commands/importauthor.py	/^from django.core import serializers$/;"	i
+serializers	jokes/management/commands/importjokes.py	/^from django.core import serializers$/;"	i
+serializers	jokes/views.py	/^from django.core import serializers$/;"	i
+size	jokes/models.py	/^    size = models.IntegerField(default = 0)$/;"	v	class:Image
+source	jokes/models.py	/^    source = models.IntegerField(default=0,choices=JOKE_SOURCE)$/;"	v	class:Joke
+start	jokes/management/commands/importjokes.py	/^        print "import Jokes  start filepath = %s" % options.get('filepath')$/;"	i
+start_urls	datas/tools/jokes_spider/jokespider/jokespider/spiders/codeshome.py	/^    start_urls = ($/;"	v	class:CodeshomeSpider
+status	jokes/models.py	/^    status = models.IntegerField(default=0,choices=JOKE_STATUS)$/;"	v	class:Joke
+status	jokes/models.py	/^    status = models.IntegerField(default=STATUS_INIT,choices=COMMENT_STATUS)$/;"	v	class:Comment
+success	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+sys	manage.py	/^import sys$/;"	i
+tag	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    tag = scrapy.Field()$/;"	v	class:JokespiderItem
+tag	jokes/models.py	/^    tag = models.CharField(max_length=1024,blank=True)$/;"	v	class:Joke
+test	jokes/protocol/get_jokes.py	/^def test():$/;"	f
+thumbup	jokes/views.py	/^def thumbup(request):$/;"	f
+timems2datetime	jokes/models.py	/^def timems2datetime(ms):$/;"	f
+timems2datetime	mobile_platform/models.py	/^def timems2datetime(ms):$/;"	f
+total	jokes/management/commands/importjokes.py	/^        print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)$/;"	i
+type	jokes/models.py	/^    type = models.IntegerField(default = 0)$/;"	v	class:Image
+type	jokes/models.py	/^    type = models.IntegerField(default=0,choices=JOKE_TYPES)$/;"	v	class:Joke
+unpublish	jokes/views.py	/^def unpublish(request):$/;"	f
+update_time	jokes/models.py	/^    update_time = models.BigIntegerField('date update',blank=True,default=0)$/;"	v	class:Joke
+update_time	jokes/models.py	/^    update_time=models.BigIntegerField('date update',default=0);$/;"	v	class:Comment
+url	jokes/urls.py	/^from django.conf.urls import patterns,url$/;"	i
+url	jokes_project/urls.py	/^from django.conf.urls import patterns, include, url$/;"	i
+url	mobile_platform/urls.py	/^from django.conf.urls import patterns,url$/;"	i
+urlpatterns	jokes/urls.py	/^urlpatterns = patterns('',$/;"	v
+urlpatterns	jokes_project/urls.py	/^urlpatterns = patterns('',$/;"	v
+urlpatterns	mobile_platform/urls.py	/^urlpatterns = patterns('',$/;"	v
+username	jokes/models.py	/^    username = models.CharField(max_length= 100,primary_key=True)$/;"	v	class:Author
+utils	jokes_project/settings.py	/^import django.utils.log$/;"	i
+version_code	mobile_platform/models.py	/^	version_code = models.IntegerField(default=0)$/;"	v	class:VersionConfig
+version_name	mobile_platform/models.py	/^	version_name = models.CharField(max_length= 100)$/;"	v	class:VersionConfig
+view_count	jokes/models.py	/^    view_count = models.IntegerField(default=0)$/;"	v	class:Joke
+views	jokes/urls.py	/^from jokes import views$/;"	i
+views	mobile_platform/urls.py	/^from mobile_platform import views$/;"	i
+votes	datas/tools/jokes_spider/jokespider/jokespider/items.py	/^    votes = scrapy.Field()$/;"	v	class:JokespiderItem
+xlrd	jokes/management/commands/importauthor.py	/^import xlrd$/;"	i
+xlrd	jokes/management/commands/importjokes.py	/^import xlrd$/;"	i
