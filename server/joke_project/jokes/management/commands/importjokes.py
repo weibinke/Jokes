@@ -26,6 +26,9 @@ import xlrd
 from django.core.management.base import BaseCommand
 from optparse import make_option
 import json
+import sys
+reload(sys)
+sys.setdefaultencoding( "utf-8" )
 
 #import Jokes from Json file
 
@@ -99,7 +102,10 @@ class Command(BaseCommand):
                 
                     add_count +=1
                 suc_count +=1
-                print "parse item : content=%s" % item.get('author')
+                print "Joke item end  content=%s" % (content)
             except:
                 print "parse item failed"
+                raise
+
+            print "parse item end.outerid=%s" % (outerid)
         print "import jokes completed total count=%d,success count=%d,added count=%d,image count=%d,image added=%d" % (joke_count,suc_count,add_count,image_count,image_added)
